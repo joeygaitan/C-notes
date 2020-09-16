@@ -1,6 +1,7 @@
 # Casting
 * Converting data types of variables into another data type
 
+* explicit casting can look syntactically correct but causes errors.
 # different types of casts in C++
 * static_cast
 * reinterpret_cast
@@ -43,5 +44,12 @@
     double a = static_cast<int>(value);
 ```
 
+### static cast
+* 
+### dynamic cast
+
+### reinterpret_cast
+
+### const_cast
 
 
