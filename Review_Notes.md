@@ -1,3 +1,6 @@
+# Type Punning
+* Having two pointers for the same data but with their own unique data types...
+
 # Float constants
 * sometimes the compiler will declare 0.0 as a double, so adding 0.0f will convert them at compile time....
 
@@ -27,7 +30,7 @@ uses of operator
 * In case of multiple inheritance
 * for namespace
 * refer to a class inside of another class
-* define class member functions outside of class's braquets 
+* define class member functions outside of class's brackets 
 
 
 "https://www.geeksforgeeks.org/scope-resolution-operator-in-c/"
