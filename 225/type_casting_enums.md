@@ -1,5 +1,12 @@
 # Casting
 * Converting data types of variables into another data type
+
+# different types of casts in C++
+* static_cast
+* reinterpret_cast
+* dynamic_cast
+* const_cast
+
 ## type punning
 * Converting complex data types into something else.
 * converting struct and classes member variables into an array.
@@ -12,6 +19,29 @@
 
 ## implicit conversion
 - C++ knows how convert between two data types with no data loss
+```c++
+    int a = 5;
+    double value = a;
+
+    double value = 5.25;
+    int a = value;
+```
 
 ## explicit conversion
-- 
+- Telling c++ to convert types
+
+
+### C styled casts
+```c++
+    double value = 5.25;
+    double a = (int)(value + 5.25);
+```
+
+### C++ styled casts (static cast)
+```c++
+    double value = 5.25;
+    double a = static_cast<int>(value);
+```
+
+
+
