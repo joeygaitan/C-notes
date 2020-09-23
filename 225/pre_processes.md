@@ -20,7 +20,7 @@ Source code -> Preprocess time -> Compiler -> Linker -> Executable (machine code
 * replacing a small chunk of code with a big chunk of code
 * no ability to have a breakpoint inside of the macro
 * ability to pass different types of data into the macro
-
+* you can use conditional turnary operator for macros as well.
 
 #### text book definition
 * define a small identifier that gets replaced with something else
