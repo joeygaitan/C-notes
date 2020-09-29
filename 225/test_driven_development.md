@@ -72,6 +72,9 @@ assert(value > 4);
 * if the user has access to the assert don't use an assert and use a unit test
 * when the values are controlled and the user has no access to the values in the expression for the assert breaking your code.
 
+### closing statement
+
+* write a test that catches it so it won't happen again....
 
 
 
